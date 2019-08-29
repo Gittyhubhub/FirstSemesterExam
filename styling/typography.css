@@ -1,0 +1,26 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.shifted, .shifted-alt{
+    max-width:60%;
+    word-wrap: break-word; /*Denne vil splitte ord op, i tilfælde af de ville have gået ud over kassens grænse.*/
+    padding:1em; /*Dette er en lidt mere dynamisk værdi, så den tilpasser sig til skærmene.*/
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shifted{
+    float:left;
+}
+.shifted-alt{
+    float:right;
+}
+.card-folio, .card-folio_left, .card-folio_right h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.half-width, .border-left, .text-block h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

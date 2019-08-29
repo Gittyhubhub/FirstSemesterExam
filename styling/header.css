@@ -1,0 +1,30 @@
+.mainHeader {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100vh;
+    position: relative;
+    margin-bottom: 80px;
+}
+.mainHeader img{
+    width: 100%;
+}
+.mainHeader .triangles{
+        height: 300px;
+      
+}
+.mainHeader .triangles:before,
+.triangles:after {
+  content: "";
+  position: absolute;
+  height: 30%;
+  width: 50%;
+  bottom: 0;
+}
+.mainHeader .triangles:after {
+    right: 0;
+    background: linear-gradient(to bottom right, transparent 49.5%, white 50%);
+  }
+  .mainHeader .triangles:before {
+    left: 0;
+    background: linear-gradient(to bottom left, transparent 49.5%, white 50%);
+  }

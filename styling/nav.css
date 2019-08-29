@@ -1,0 +1,44 @@
+.navigation{
+    width:100%;
+    background-color: darkred;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+}
+.navigation ul{
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    display: contents;
+}
+.navigation ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.navigation ul li a{
+    color: white;
+    display: block;
+    padding:8px 0;
+    text-decoration: none;
+}
+.navigation ul li a:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 0%; /* Change this to whatever width you want to have before hover. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    transition: .5s; /* This establishes the amount of time in seconds the animation should take from start to finish */
+    border-bottom: 0px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+.navigation ul li a:hover:after {
+    margin-left: 25%;
+    width: 50%; /* This will be the new width of your border when on hover */
+    border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+  }
+
+.navigation ul li a.active:after {
+    margin-left: 25%;
+    width: 50%; /* Change this to whatever width you want to have before hover. */
+    border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+  }

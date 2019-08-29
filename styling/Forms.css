@@ -1,0 +1,82 @@
+/* Contact Form Styles */
+h1 {
+    margin: 10px 0 0 0;
+    color: #C0C0C0;
+ }
+ h4{
+    margin: 0 0 20px 0;
+    color: #C0C0C0;
+ }
+ #contact-form {
+    background-color:#333333;
+    padding: 10px 20px 30px 20px;
+    max-width:100%;
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    margin-bottom: 20px;
+ }
+ #contact-form input,   
+ #contact-form select,   
+ #contact-form textarea,   
+ #contact-form label { 
+    font-size: 15px;  
+    margin-bottom: 2px;
+    font-family: Arial, san-serif;
+   
+ } 
+ #contact-form label{
+    color: white;
+ }
+ #contact-form input,   
+ #contact-form select,   
+ #contact-form textarea { 
+    width:100%;
+    background: #fff;
+    border: 0; 
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px;
+    margin-bottom: 25px;  
+    padding: 5px;  
+ }  
+ 
+ #contact-form textarea {
+    width:100%;
+    height: 150px;
+ }
+ #contact-form button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#991D57;
+    background:grey;
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+ }
+ #contact-form button[type="submit"]:hover {
+    background:#aa0016;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+ }
+ 
+ #contact-form .required {  
+    font-weight:bold;  
+    color: #E5E6E7;      
+ }
+ 
+ 
+ /* Make form look nice on smaller screens */
+ @media only screen and (max-width: 580px) {
+    #contact-form{
+       left: 3%;
+       margin-right: 3%;
+       width: 88%;
+       margin-left: 0;
+       padding-left: 3%;
+       padding-right: 3%;
+    }
+ }

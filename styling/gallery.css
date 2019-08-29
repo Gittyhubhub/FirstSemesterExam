@@ -1,0 +1,12 @@
+.gallery-container{
+    margin-top:150px;
+}
+.gallery-container .gallery-item{
+    height: 300px;
+    width: 32%;
+    float: left; 
+    margin: 10px;
+    -webkit-box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.75);
+}
